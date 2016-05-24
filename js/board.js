@@ -177,7 +177,7 @@ var Board = (function() {
         }
     }
 
-     /**
+    /**
      * Animaton for when a card is being removed.
      */
 
@@ -200,7 +200,7 @@ var Board = (function() {
         requestAnimFrame(animateAway);
     }
 
-     /**
+    /**
      * Drawing a card into the canvas.
      * @param {number} Position of the card.
      */
@@ -215,8 +215,8 @@ var Board = (function() {
     }
 
     /**
-    * Drawing the deck into the canvas.
-    */
+     * Drawing the deck into the canvas.
+     */
 
     function drawDeck() {
         var cardImage = document.getElementById(getCardId());
@@ -226,8 +226,8 @@ var Board = (function() {
     }
 
     /**
-    * Animating the cards to their respective position.
-    */
+     * Animating the cards to their respective position.
+     */
 
     function animate() {
         if (animation.srcX <= animation.dstX) {
@@ -246,8 +246,8 @@ var Board = (function() {
     }
 
     /**
-    * Updating the animation depending on the position of the card.
-    */
+     * Updating the animation depending on the position of the card.
+     */
 
     function updateAnimation() {
         if (animation.dstY === 250) {
@@ -262,13 +262,13 @@ var Board = (function() {
     }
 
     /**
-    * Getting the index, starting poistion and ending position of the card.
-    * @param {number} cardIndex The index of the card in the deck.
-    * @param {number} startX x coordinates of the starting position.
-    * @param {number} startY y coordinates of the starting position.
-    * @param {number} endX x coordinates of the ending position.
-    * @param {number} endY y coordinates of the ending position.
-    */
+     * Getting the index, starting poistion and ending position of the card.
+     * @param {number} cardIndex The index of the card in the deck.
+     * @param {number} startX x coordinates of the starting position.
+     * @param {number} startY y coordinates of the starting position.
+     * @param {number} endX x coordinates of the ending position.
+     * @param {number} endY y coordinates of the ending position.
+     */
 
     function animateCard(cardIndex, startX, startY, endX, endY) {
         animation.card = document.getElementById(getCardId(cardIndex));

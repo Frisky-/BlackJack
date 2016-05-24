@@ -5,11 +5,11 @@
 var Dealer = (function() {
     'use strict';
     /**
-    * Dealing a card to her position after some interval.
-    * @param {number} cardPostion The position of the card.
-    * @param {number} card Index of the card.
-    * @param {number} afterSeconds Executes the function moveCard after 1 second.
-    */
+     * Dealing a card to her position after some interval.
+     * @param {number} cardPostion The position of the card.
+     * @param {number} card Index of the card.
+     * @param {number} afterSeconds Executes the function moveCard after 1 second.
+     */
     function dealCard(cardPosition, card, afterSeconds) {
         if (card) {
             setTimeout(function() {

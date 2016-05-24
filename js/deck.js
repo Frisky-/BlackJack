@@ -1,15 +1,15 @@
 /**
-* Creates instance of Deck.
-*/
+ * Creates instance of Deck.
+ */
 
 var Deck = (function() {
     'use strict';
 
     var cards = [];
 
-   /**
-   * Creating a deck with 52 cards.
-   */
+    /**
+     * Creating a deck with 52 cards.
+     */
 
     function create() {
         for (var i = 0; i < 52; i++) {
@@ -17,9 +17,9 @@ var Deck = (function() {
         }
     }
 
-   /**
-   * Shuffling the cards in the deck on random principle.
-   */
+    /**
+     * Shuffling the cards in the deck on random principle.
+     */
 
     function shuffle() {
         var currentIndex = cards.length,
