@@ -1,0 +1,13 @@
+body {
+  background: rgba(98, 125, 77, 1);
+}
+.card {
+  display: none;
+  width: 50px;
+  height: 75px;
+}
+
+#hit-me {
+  width: 150px;
+  font-weight: bold;
+}
