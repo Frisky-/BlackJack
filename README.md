@@ -1,2 +1,3 @@
 # BlackJack
-# Very simple version of the game Black Jack.
+
+Very simple version of the game Black Jack.
